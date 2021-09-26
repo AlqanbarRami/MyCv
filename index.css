@@ -1,0 +1,448 @@
+
+body {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 100px;
+    background-color:linen  ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+    height: auto;
+   
+}
+
+
+.first-sub-container{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    width: 80%;
+    height: auto;
+    border-radius: 50px;
+    background-color:white;
+    
+    
+  }
+
+
+.image-name{
+    display: flex;
+    flex-direction: column;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+    width: 100%;
+    height: 70%;
+}
+
+
+.image-name-conatins{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+.my-image{
+    border-radius: 50%;
+    width: 25%;
+    height: auto;
+
+}
+
+.my-icons{
+    display: flex;
+    flex-direction:row;
+    width: 80%;
+    padding-bottom: 40px;
+    font-size:24px;
+    color: white;
+    justify-content:center;
+    padding-top: 20px;
+}
+.my-icons > a {
+    padding: 10px;
+}
+
+.my-name {
+    color: white;
+    font-size:34px;
+    padding-top: 10px;
+}
+
+.my-job{
+    color: white;
+    font-family: Calibri,Arial, Helvetica, sans-serif;
+    font-size:24px; 
+    padding-top: 3px;
+}
+
+
+
+.nested-first-sub-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height:auto;
+}
+
+.about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    font-size: 20px;
+    padding: 40px;
+    
+}
+
+
+
+
+    .information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-right: 2px solid;
+    border-radius: 20%;
+    border-width: 10px;
+    border-right-color:lightskyblue;
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+
+}
+.information:hover{
+    background-color:lightskyblue ;
+    transition : background-color 2s ;
+    border-right: 2px solid;
+    border-radius: 0 20% 20% 50px;
+    border-width: 5px;
+    border-right-color:lightskyblue;
+    transition-property: left, right 2s;
+}
+
+    dt{
+        font-weight: bolder;
+        padding-bottom: 2px;
+    }
+    dd{
+        padding-bottom: 4px;
+    }
+
+
+    .second-sub-container{
+        margin-top: 80px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        width: 80%;
+        height: auto;
+        background-image: linear-gradient( 109.6deg,  rgba(5,84,94,1) 16%, #bbb 91.1% );
+        margin-top: 80px;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        border-radius: 50px;
+
+            }
+
+    .work-experience{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        width: 90%;
+        align-self: center;
+        justify-content: center;
+        flex-wrap: wrap;
+
+
+    
+        
+    }
+
+    .work-experience > h3{
+        color: white;
+        align-self: center;
+    }
+    
+    
+    .company-name{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+        font-weight: bold;
+    }
+    
+    
+    .work1,
+    .work2,
+    .work3,
+    .work4{
+        display:flex;
+        flex-direction: column;
+        box-shadow: rgba(255, 255, 255, 0.05) 0px 1px 0px, rgba(243, 243, 245, 0.1) 0px 0px 8px;
+        border-radius: 0 10px 10px 10px;
+        width: 100%;
+        background-color: white;
+        margin-top: -22px;
+        
+    
+    }
+    
+    .work1:hover,
+    .work2:hover,
+    .work3:hover,
+    .work4:hover{
+        background-color:thistle;
+        color: black;
+        transition : background-color 0.5s ;
+    }
+    
+    .work-date{
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient( 109.6deg,  rgba(121,203,202,1) 11.2%, rgba(119,161,211,1) 91.1% );
+        width: auto;
+        height: auto;
+        padding: 20px;
+        justify-content: center;
+        border-radius: 10px 10px 0 0;
+        color: black;
+    }
+    
+    div > p {
+    
+        padding: 0px 20px 10px 20px;
+        font-size: 18px;
+        font-family: Calibri,Arial, Helvetica, sans-serif;
+    }
+    div >span{
+        font-size: 24px;
+        font-family: Calibri,Arial, Helvetica, sans-serif;
+        padding-top: 20px;
+    
+    }
+    .third-sub-container{
+        margin-top: 80px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+        width: 80%;
+        height: auto;
+        padding-bottom: 100px;
+        padding-top: 50px;
+        border-radius: 50px;
+        background-color:white;
+       
+        
+            }
+    
+    
+    .study-date {
+        
+        display: flex;
+        flex-direction: column;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+        width: auto;
+        height: auto;
+        padding: 20px;
+        justify-content: center;
+        border-radius: 10px 10px 0 0;
+        color: black;
+    }
+    
+    .education{
+        
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items:flex-start;
+        width: 90%;
+        align-self: center;
+        justify-content: center;
+    
+        
+    }
+
+    .education > h3{
+        color:black;
+        align-self: center;
+    }
+    .education > h4{
+        color: white;
+    }
+
+    
+    .study1,
+    .study2,
+    .study3,
+    .study4{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        background-color: aliceblue;
+        box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+        border-radius: 0 10px 10px 10px;
+        width: 100%;
+        margin-top: -22px;
+    
+    }
+    
+ 
+    
+    .un-name{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 20px;
+    }
+    
+
+    .betyg{
+        box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+        padding: 20px;
+        border-radius: 50%;
+        color: black;
+        font-size: 12px;
+        margin-left: 20px;
+    }
+
+@media screen and (max-width: 800px) {
+
+
+    .nested-first-sub-container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-self: flex-start;
+        background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+        width: 100%;
+        height: 100%;
+        border-radius: 20%;
+        }
+    .my-image{
+        border-radius: 50%;
+        width: 30%;
+        height: auto;
+    
+    }
+    .my-icons{
+        font-size:18px;
+        justify-content:center ;
+        padding: 10px;
+        width: 20%;
+    }
+    .my-icons > a{
+        padding:10px;
+    }
+    
+    .my-name {
+        color: white;
+        font-size:22px;
+        padding-top: 10px;
+    }
+    
+    .my-job{
+        color: white;
+        font-family: Calibri,Arial, Helvetica, sans-serif;
+        font-size:16px; 
+        padding-top: 3px;
+    }
+    .information{
+        border-right: none;
+        background-color: white;
+        border-bottom: 2px solid;
+        border-radius: 0 0 20% 20% ;
+        border-width: 10px;
+        border-bottom-color:lightskyblue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 30%;
+        font-size: 12px;
+        padding: 0;
+    
+    }
+
+    .information:hover{
+        background-color:white;
+        border-right: none;
+    }
+    
+    dt{
+        font-weight: bolder;
+        padding-bottom: 2px;
+    }
+    dd{
+        padding-bottom: 10px;
+    }
+
+    .about-me{
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        border-top: 2px solid ;
+        border-radius: 20% 20% 20% 20%;
+        border-width: 10px;
+        border-top-color:lightskyblue;
+        font-size: 14px;
+        margin-top: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 70%;
+        padding: 0;
+        
+        
+    }
+
+   
+    div > p {
+    
+        padding: 0px 20px 10px 20px;
+        font-size: 14px;
+    }
+
+    .study > span {
+        font-family: Calibri,Arial, Helvetica, sans-serif;
+        font-size:14px; 
+    }
+    .study > p {
+        font-family: Calibri,Arial, Helvetica, sans-serif;
+        font-size:12px; 
+    }
+
+    .company-name,
+    .un-name{
+        font-size:14px ;
+        font-weight: bold;
+        }
+    
+    .study-date,
+    .work-date{
+        font-size: 12px;
+    }
+  
+    
+
+    
+
+}
+
+
+
